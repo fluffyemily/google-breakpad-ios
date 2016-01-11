@@ -37,8 +37,8 @@
 #include <string.h>
 #include <unistd.h>
 
-#include "common/mac/file_id.h"
-#include "common/mac/macho_id.h"
+#include "file_id.h"
+#include "macho_id.h"
 
 using MacFileUtilities::MachoID;
 

@@ -35,8 +35,8 @@
 #include <string>
 #include <vector>
 
-#include "common/using_std_string.h"
-#include "google_breakpad/common/breakpad_types.h"
+#include "using_std_string.h"
+#include "breakpad_types.h"
 
 namespace google_breakpad {
   

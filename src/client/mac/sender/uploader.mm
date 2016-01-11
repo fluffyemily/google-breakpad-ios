@@ -34,11 +34,11 @@
 
 #import <SystemConfiguration/SystemConfiguration.h>
 
-#import "common/mac/HTTPMultipartUpload.h"
+#import "HTTPMultipartUpload.h"
 
-#import "client/apple/Framework/BreakpadDefines.h"
-#import "client/mac/sender/uploader.h"
-#import "common/mac/GTMLogger.h"
+#import "BreakpadDefines.h"
+#import "uploader.h"
+#import "../../../common/mac/GTMLogger.h"
 
 const int kMinidumpFileLengthLimit = 2 * 1024 * 1024;  // 2MB
 

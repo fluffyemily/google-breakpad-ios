@@ -36,7 +36,7 @@
 #include <unistd.h>
 #include <sys/sysctl.h>
 
-#include <common/scoped_ptr.h>
+#include <scoped_ptr.h>
 
 #pragma mark -
 #pragma mark Private Methods

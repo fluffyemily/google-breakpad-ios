@@ -27,7 +27,7 @@
 // (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "client/mac/handler/dynamic_images.h"
+#include "dynamic_images.h"
 
 extern "C" { // needed to compile on Leopard
   #include <mach-o/nlist.h>

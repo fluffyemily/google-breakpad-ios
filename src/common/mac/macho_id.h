@@ -38,8 +38,8 @@
 #include <mach/machine.h>
 #include <mach-o/loader.h>
 
-#include "common/mac/macho_walker.h"
-#include "common/md5.h"
+#include "macho_walker.h"
+#include "md5.h"
 
 namespace MacFileUtilities {
 

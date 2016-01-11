@@ -35,11 +35,11 @@
 
 #include <map>
 
-#include "client/mac/handler/exception_handler.h"
-#include "client/mac/handler/minidump_generator.h"
-#include "common/mac/macho_utilities.h"
-#include "common/mac/scoped_task_suspend-inl.h"
-#include "google_breakpad/common/minidump_exception_mac.h"
+#include "exception_handler.h"
+#include "minidump_generator.h"
+#include "macho_utilities.h"
+#include "scoped_task_suspend-inl.h"
+#include "minidump_exception_mac.h"
 
 #ifndef __EXCEPTIONS
 // This file uses C++ try/catch (but shouldn't). Duplicate the macros from

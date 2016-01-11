@@ -29,14 +29,14 @@
 //
 // Utility class that can persist a SimpleStringDictionary to disk.
 
-#import "client/mac/crash_generation/ConfigFile.h"
+#import "ConfigFile.h"
 
 #import <Foundation/Foundation.h>
 #include <stdio.h>
 #include <sys/time.h>
 
-#import "client/apple/Framework/BreakpadDefines.h"
-#import "common/mac/GTMDefines.h"
+#import "BreakpadDefines.h"
+#import "GTMDefines.h"
 
 
 namespace google_breakpad {

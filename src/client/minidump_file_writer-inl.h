@@ -36,8 +36,8 @@
 
 #include <assert.h>
 
-#include "client/minidump_file_writer.h"
-#include "google_breakpad/common/minidump_size.h"
+#include "minidump_file_writer.h"
+#include "minidump_size.h"
 
 namespace google_breakpad {
 

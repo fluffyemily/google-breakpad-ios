@@ -27,8 +27,8 @@
 // (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "common/scoped_ptr.h"
-#include "common/mac/string_utilities.h"
+#include "scoped_ptr.h"
+#include "string_utilities.h"
 
 namespace MacStringUtils {
 

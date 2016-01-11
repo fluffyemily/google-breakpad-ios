@@ -35,7 +35,7 @@
 
 #include <Foundation/Foundation.h>
 
-#include "client/mac/handler/minidump_generator.h"
+#include "minidump_generator.h"
 
 namespace google_breakpad {
 

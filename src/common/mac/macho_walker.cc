@@ -43,9 +43,9 @@ extern "C" {  // necessary for Leopard
   #include <unistd.h>
 }
 
-#include "common/mac/byteswap.h"
-#include "common/mac/macho_walker.h"
-#include "common/mac/macho_utilities.h"
+#include "byteswap.h"
+#include "macho_walker.h"
+#include "macho_utilities.h"
 
 namespace MacFileUtilities {
 

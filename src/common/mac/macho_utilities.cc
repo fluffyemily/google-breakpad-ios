@@ -31,8 +31,8 @@
 //
 // Author: Dave Camp
 
-#include "common/mac/byteswap.h"
-#include "common/mac/macho_utilities.h"
+#include "byteswap.h"
+#include "macho_utilities.h"
 
 void breakpad_swap_uuid_command(struct breakpad_uuid_command *uc,
                                 enum NXByteOrder target_byte_order)

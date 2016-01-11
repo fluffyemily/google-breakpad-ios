@@ -29,7 +29,7 @@
 
 #define IGNORE_DEBUGGER "BREAKPAD_IGNORE_DEBUGGER"
 
-#import "client/ios/BreakpadInterface.h"
+#import "BreakpadInterface.h"
 
 #include <assert.h>
 #import <Foundation/Foundation.h>
@@ -37,13 +37,13 @@
 #include <sys/stat.h>
 #include <sys/sysctl.h>
 
-#import "client/ios/handler/ios_exception_minidump_generator.h"
-#import "client/mac/crash_generation/ConfigFile.h"
-#import "client/mac/handler/exception_handler.h"
-#import "client/mac/handler/minidump_generator.h"
-#import "client/mac/sender/uploader.h"
-#import "client/mac/handler/protected_memory_allocator.h"
-#import "common/simple_string_dictionary.h"
+#import "ios_exception_minidump_generator.h"
+#import "ConfigFile.h"
+#import "exception_handler.h"
+#import "minidump_generator.h"
+#import "uploader.h"
+#import "protected_memory_allocator.h"
+#import "simple_string_dictionary.h"
 
 #if !defined(__EXCEPTIONS) || (__clang__ && !__has_feature(cxx_exceptions))
 // This file uses C++ try/catch (but shouldn't). Duplicate the macros from

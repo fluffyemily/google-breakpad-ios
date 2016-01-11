@@ -29,10 +29,10 @@
 
 #include <string.h>
 
-#include "common/convert_UTF.h"
-#include "common/scoped_ptr.h"
-#include "common/string_conversion.h"
-#include "common/using_std_string.h"
+#include "convert_UTF.h"
+#include "scoped_ptr.h"
+#include "string_conversion.h"
+#include "using_std_string.h"
 
 namespace google_breakpad {
 

@@ -27,15 +27,15 @@
 // (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "client/ios/handler/ios_exception_minidump_generator.h"
+#include "ios_exception_minidump_generator.h"
 
 #include <pthread.h>
 
-#include "google_breakpad/common/minidump_cpu_arm.h"
-#include "google_breakpad/common/minidump_cpu_arm64.h"
-#include "google_breakpad/common/minidump_exception_mac.h"
-#include "client/minidump_file_writer-inl.h"
-#include "common/scoped_ptr.h"
+#include "minidump_cpu_arm.h"
+#include "minidump_cpu_arm64.h"
+#include "minidump_exception_mac.h"
+#include "minidump_file_writer-inl.h"
+#include "scoped_ptr.h"
 
 #if defined(HAS_ARM_SUPPORT) && defined(HAS_ARM64_SUPPORT)
 #error "This file should be compiled for only one architecture at a time"

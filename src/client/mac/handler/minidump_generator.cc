@@ -40,7 +40,7 @@
 
 #include <CoreFoundation/CoreFoundation.h>
 
-#include "client/mac/handler/minidump_generator.h"
+#include "minidump_generator.h"
 
 #if defined(HAS_ARM_SUPPORT) || defined(HAS_ARM64_SUPPORT)
 #include <mach/arm/thread_status.h>
@@ -52,10 +52,10 @@
 #include <mach/i386/thread_status.h>
 #endif
 
-#include "client/minidump_file_writer-inl.h"
-#include "common/mac/file_id.h"
-#include "common/mac/macho_id.h"
-#include "common/mac/string_utilities.h"
+#include "minidump_file_writer-inl.h"
+#include "file_id.h"
+#include "macho_id.h"
+#include "string_utilities.h"
 
 using MacStringUtils::ConvertToString;
 using MacStringUtils::IntegerValueAtIndex;

@@ -34,7 +34,7 @@
 
 #include <Foundation/Foundation.h>
 
-#import "common/mac/GTMDefines.h"
+#import "../../../common/mac/GTMDefines.h"
 
 #define kClientIdPreferenceKey @"clientid"
 

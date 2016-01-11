@@ -37,11 +37,11 @@
 
 #include <string>
 
-#include "client/mac/handler/ucontext_compat.h"
-#include "client/minidump_file_writer.h"
-#include "common/memory.h"
-#include "common/mac/macho_utilities.h"
-#include "google_breakpad/common/minidump_format.h"
+#include "ucontext_compat.h"
+#include "minidump_file_writer.h"
+#include "memory.h"
+#include "macho_utilities.h"
+#include "minidump_format.h"
 
 #include "dynamic_images.h"
 #include "mach_vm_compat.h"

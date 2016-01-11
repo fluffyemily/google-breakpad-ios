@@ -41,11 +41,11 @@
 
 #include <string>
 
-#include "client/mac/handler/ucontext_compat.h"
-#include "common/scoped_ptr.h"
+#include "ucontext_compat.h"
+#include "scoped_ptr.h"
 
 #if !TARGET_OS_IPHONE
-#include "client/mac/crash_generation/crash_generation_client.h"
+#include "crash_generation_client.h"
 #endif
 
 namespace google_breakpad {
